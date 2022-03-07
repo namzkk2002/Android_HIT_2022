@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="Vui lòng nhập đầy đủ thông tin dưới đây"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+    <EditText
+        android:id="@+id/ho"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Họ"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Tên"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/tk"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="gmail hoặc sđt"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <EditText
+        android:id="@+id/mkrv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Nhắc lại mật khẩu"
+        android:inputType="textPassword"
+        android:textSize="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        />
+    <Button
+        android:id="@+id/dk"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Đăng kí"
+        android:textSize="18dp"
+        android:layout_marginTop="25dp"
+        />
+
+
+
+</LinearLayout>

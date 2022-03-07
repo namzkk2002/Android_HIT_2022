@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/anhnen"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+        <EditText
+            android:id="@+id/tk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Tài khoản"
+            android:autofillHints="username"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+            />
+        <EditText
+            android:id="@+id/pw"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:gravity="center|left"
+            android:layout_marginLeft="15dp"
+
+            />
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Lưu mật khẩu"
+            />
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/purple_500"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Quên mật khẩu ?"
+            android:gravity="center|center_horizontal"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:textSize="16dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Quay lại"
+            android:gravity="center|center_horizontal"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:textSize="16dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="--------HOẶC--------"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/setoff"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Tạo tài khoản mới"
+            android:textColor="@color/purple_700"
+            android:background="#E8F2FE"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
